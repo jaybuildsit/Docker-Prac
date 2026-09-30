@@ -4,7 +4,10 @@ import express from "express"
 const app = express()
 const PORT=3000
 
-// Roues can be mapped throuhg port routes in docker
+// Routes can be mapped throuhg port routes in docker
+// Routes can be mapped throuhg port routes in docker
+//
+
 app.get('/',(req,res)=>{
     res.status(200).json({message:"Hello World"})
 });
