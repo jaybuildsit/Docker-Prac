@@ -5,7 +5,6 @@ const app = express()
 const PORT=3000
 
 // Routes can be mapped throuhg port routes in docker
-// Routes can be mapped throuhg port routes in docker
 //
 
 app.get('/',(req,res)=>{
