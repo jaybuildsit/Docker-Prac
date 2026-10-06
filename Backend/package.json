@@ -1,16 +1,25 @@
 {
-  "name": "backend",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "docker-prac",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaybuildsit/Docker-Prac.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+  "bugs": {
+    "url": "https://github.com/jaybuildsit/Docker-Prac/issues"
+  },
+  "homepage": "https://github.com/jaybuildsit/Docker-Prac#readme"
 }
