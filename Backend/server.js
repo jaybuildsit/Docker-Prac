@@ -15,7 +15,7 @@ app.get("/hello", (req, res) => {
   res.status(200).json({ message: "Hello, World!" });
 });
 
-app.get("/users", (req, res) => {
+app.get("/api/users", (req, res) => {
   const users = [
     { id: 1, name: "Alice" },
     { id: 2, name: "Bob" },
